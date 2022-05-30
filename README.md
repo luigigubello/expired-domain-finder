@@ -1,5 +1,5 @@
 # Expired Domain Finder
-Python command-line tool to find expired domains attached to open source projects (currently PyPi only). Idea based on the repo [scovetta/expired-domain-finder](https://github.com/scovetta/expired-domain-finder).
+Python command-line tool to find expired domains attached to open source projects (currently PyPi only, Author e-mail address metadata). Idea based on the repo [scovetta/expired-domain-finder](https://github.com/scovetta/expired-domain-finder).
 
 The tool uses two methods of evaluating if a domain is expired:
 - the package [psf/requests](https://github.com/psf/requests) to send a HEAD request to the domain and wait for the response
