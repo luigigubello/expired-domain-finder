@@ -23,8 +23,7 @@ def list_packages_python(path_file):
             for line in f:
                 spl = re.split('>|<|=|\n', line)
                 # Missing error handling, too tired today sorry
-                if str(spl[0]).isalnum():
-                    packages.append(str(spl[0]))
+                packages.append(str(spl[0]))
         except:
             error = {"error": "empty file"}
             print("Error: {}".format(error['error']))
